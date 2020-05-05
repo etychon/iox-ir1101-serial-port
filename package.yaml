@@ -1,8 +1,8 @@
 descriptor-schema-version: "2.6"
 
 info:
-  name: "IOx_IR1101_GPIO_aarch64"
-  description: "Get GPIO status on IR1101"
+  name: "IOx_IR1101_serial_aarch64"
+  description: "Read/Write serial data on IR1101"
   version: "1.0"
   author-link: "http://www.cisco.com"
   author-name: "Emmanuel Tychon"
