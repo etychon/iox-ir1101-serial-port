@@ -15,6 +15,7 @@ Cisco IR1101 RS232 port is following EIA/TIA-561 RS232 specifications and must b
 
 Tx on one side must connect to Rx on the other side, and conversely. You cannot directly use a Cisco USB 'baby blue' console cable as the pinout is different.
 
+
 However you can build an intermediate device that will map the IR1101 serial port to Cisco Console serial port mapping. This will work only with the Cisco compatible console cable and with nothing else.
 
 The following cable RJ45 male goes in IR1101, and the female if to receive your Cisco USB console. The pinout is:
