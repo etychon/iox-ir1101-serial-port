@@ -3,6 +3,14 @@ Sample code to use serial port (async0) in IOx from Cisco IR1101
 
 Cisco Industrial Router 1101 (IR1101) is equiped with a serial port that is of Data Terminal Equipment (DTE) type and only supports serial protocol RS232.
 
+## Introduction
+
+In this project we will connect a router Cisco IR1101 asynchronous serial port (async0) to a computer using a serial connection - note that this is different than accessing the router console using a serial port. In this case we will use a Cisco IOx container application to use an RS232 / RJ45 port on the IR1101. This is independant of the console port and not for configuring the platform.
+
+For convenience we will be using USB-to-serial converter, the same one we use for console, because that is something most people have. The the Cisco serial-console is not a "standard" serial pinout and is not compatible with RJ45 serial cables, therefore we will build a small adapter that allows to use the Serial console cable as a normal serial cable for this project. This is an optional step for education purpose only.
+
+Lastly an IOx application will be build using Docker, Python and pySerial to communicate with that serial port. In practice you may use this configuration to talk to any serial device, be it a Modbus device, a virtual RTU, a sensor.
+
 ## Hardware
 
 Cisco IR1101 RS232 port is following EIA/TIA-561 RS232 specifications and must be connected appropriately. For the serial RJ45 connector on this platform those three wires must be connected appropriately to the remote serial device:
