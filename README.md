@@ -13,7 +13,7 @@ Lastly an IOx application will be build using Docker, Python and pySerial to com
 
 ## Hardware
 
-Cisco IR1101 RS232 port is following EIA/TIA-561 RS232 specifications and must be connected appropriately. For the serial RJ45 connector on this platform those three wires must be connected appropriately to the remote serial device:
+Cisco IR1101 RS232 port is following EIA/TIA-561 RS232 specifications and must be connected appropriately. For the serial RJ45 connector on this platform those three wires must be connected appropriately to the remote serial device [as explained in the IR1101 documentation](https://www.cisco.com/c/en/us/td/docs/routers/access/1101/b_IR1101HIG/b_IR1101HIG_chapter_01.html#con_1201913):
 
 | PIN# | Function      |
 |------|---------------|
